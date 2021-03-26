@@ -7,13 +7,13 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
             Console.WriteLine("a");
-            double a = Convert.ToDouble(Console.ReadLine());
+            float a = Convert.ToSingle(Console.ReadLine()); // Берём из консоли число и сразу конвертируем в float
             Console.WriteLine("b");
-            double b = Convert.ToDouble(Console.ReadLine());
-            double x = a * b;
-            Console.WriteLine("a = " + a.ToString() + " b = " + b.ToString());
+            double b = Convert.ToDouble(Console.ReadLine()); // Берём из консоли число и сразу конвертируем в float
+            double x = a * b; // Делаем действие
+            Console.WriteLine("a = " + a + " b = " + b); // Выводим хуету
             Console.WriteLine();
-            Console.WriteLine("x = " + x);
+            Console.WriteLine("x = " + x); // Выводим хуету
         }
     }
 }
