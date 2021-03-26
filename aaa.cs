@@ -9,7 +9,7 @@ namespace ConsoleApp4
             Console.WriteLine("a");
             float a = Convert.ToSingle(Console.ReadLine()); // Берём из консоли число и сразу конвертируем в float
             Console.WriteLine("b");
-            double b = Convert.ToDouble(Console.ReadLine()); // Берём из консоли число и сразу конвертируем в float
+            float b = Convert.ToSingle(Console.ReadLine()); // Берём из консоли число и сразу конвертируем в float
             double x = a * b; // Делаем действие
             Console.WriteLine("a = " + a + " b = " + b); // Выводим хуету
             Console.WriteLine();
